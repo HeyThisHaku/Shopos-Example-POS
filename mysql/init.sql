@@ -24,8 +24,8 @@ CREATE TABLE IF NOT EXISTS products (
 
 -- Default admin user (password: admin123)
 INSERT INTO users (name, email, password, role) VALUES
-('Administrator', 'admin@shop.com', '0192023a7bbd73250516f069df18b500', 'admin'),
-('John Doe', 'user@shop.com', '0192023a7bbd73250516f069df18b500', 'user');
+('Administrator', 'admin@shop.com', '5f4dcc3b5aa765d61d8327deb882cf99', 'admin'),
+('John Doe', 'user@shop.com', '5f4dcc3b5aa765d61d8327deb882cf99', 'user');
 
 -- Sample products
 INSERT INTO products (name, description, price, stock, category, image_url) VALUES
